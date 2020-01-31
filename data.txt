@@ -1,1 +1,5 @@
-[]
+- path: cryptoData
+  name: cryptoData
+  rows: 39861
+  cols: 87
+  type: table
