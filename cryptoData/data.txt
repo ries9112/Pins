@@ -1,11 +1,11 @@
 path:
 - data.csv
 - data.rds
-rows: 39861
+rows: 43575
 cols: 87
 columns:
   DateExtracted: character
-  DateTimeColoradoMST: character
+  DateTimeColoradoTimeMST: character
   Name: character
   Rank: character
   PriceUSD: character
