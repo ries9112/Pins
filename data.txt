@@ -8,3 +8,8 @@
   rows: 43575
   cols: 87
   type: table
+- path: head-cryptoData
+  name: head-cryptoData
+  rows: 6
+  cols: 87
+  type: table
