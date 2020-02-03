@@ -3,3 +3,8 @@
   rows: 43575
   cols: 87
   type: table
+- path: cryptoDataNew
+  name: cryptoDataNew
+  rows: 43575
+  cols: 87
+  type: table
