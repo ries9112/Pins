@@ -1,7 +1,7 @@
 path:
 - data.csv
 - data.rds
-rows: 44159
+rows: 44433
 cols: 88
 columns:
   '...1': numeric
@@ -43,8 +43,8 @@ columns:
   TokenInsight_Grade: character
   TokenInsight_TeamScore: numeric
   TokenInsight_SubjectScore: numeric
-  TxVol24h: numeric
-  AdjstedTxVol24h: numeric
+  TxVol24h: character
+  AdjstedTxVol24h: character
   MedianTxValueUSD: numeric
   ActiveAddresses: numeric
   Transactions24h: numeric
