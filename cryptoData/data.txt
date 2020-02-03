@@ -2,14 +2,15 @@ path:
 - data.csv
 - data.rds
 rows: 44159
-cols: 87
+cols: 88
 columns:
-  DateExtracted: factor
-  DateTimeColoradoTimeMST: factor
-  Name: factor
-  Rank: integer
+  '...1': numeric
+  DateExtracted: Date
+  DateTimeColoradoTimeMST: POSIXct
+  Name: character
+  Rank: numeric
   PriceUSD: numeric
-  PriceBTC: factor
+  PriceBTC: character
   PercChange24hVsUSD: numeric
   PercChange24hVsBTC: numeric
   Reported_MarketCap: numeric
@@ -18,10 +19,10 @@ columns:
   Reported_Supply: numeric
   CurrentInflation: numeric
   ATH_USD: numeric
-  TimeFromATH: factor
+  TimeFromATH: character
   PercDownFromATH: numeric
   BreakevenMultiple: numeric
-  PercUpSinceLow: factor
+  PercUpSinceLow: numeric
   PercChange7d: numeric
   PercChange7d_BTC: numeric
   PercChange30d: numeric
@@ -34,32 +35,32 @@ columns:
   PercChange_QTD: numeric
   PercChange_YTD: numeric
   NetworkPercStaking: numeric
-  FlipsideFCAS_Grade: factor
-  FlipsideFCAS_Rating: integer
-  FlipsideScore_Dev: integer
-  FlipsideScore_Utility: integer
-  FlipsideScore_Maturity: integer
-  TokenInsight_Grade: factor
-  TokenInsight_TeamScore: integer
-  TokenInsight_SubjectScore: integer
-  TxVol24h: factor
-  AdjstedTxVol24h: factor
+  FlipsideFCAS_Grade: character
+  FlipsideFCAS_Rating: numeric
+  FlipsideScore_Dev: numeric
+  FlipsideScore_Utility: numeric
+  FlipsideScore_Maturity: numeric
+  TokenInsight_Grade: character
+  TokenInsight_TeamScore: numeric
+  TokenInsight_SubjectScore: numeric
+  TxVol24h: numeric
+  AdjstedTxVol24h: numeric
   MedianTxValueUSD: numeric
-  ActiveAddresses: integer
-  Transactions24h: integer
+  ActiveAddresses: numeric
+  Transactions24h: numeric
   Fees24hUSD: numeric
   MedianFeeUSD: numeric
   AvgDifficulty: numeric
-  KilobytesAdded24h: integer
-  NumBlocks24h: integer
-  Git_Stars: integer
-  Git_Watchers: integer
-  Git_CommitsLast90Days: integer
-  Git_CommitsLastYear: integer
-  Git_LinesAddedLast90Days: integer
-  Git_LinesAddedLastYear: integer
-  Git_LinesRemovedLast90Days: integer
-  Git_LinesRemovedLastYear: integer
+  KilobytesAdded24h: numeric
+  NumBlocks24h: numeric
+  Git_Stars: numeric
+  Git_Watchers: numeric
+  Git_CommitsLast90Days: numeric
+  Git_CommitsLastYear: numeric
+  Git_LinesAddedLast90Days: numeric
+  Git_LinesAddedLastYear: numeric
+  Git_LinesRemovedLast90Days: numeric
+  Git_LinesRemovedLastYear: numeric
   ROI_2018: numeric
   ROI_2017: numeric
   ROI_2016: numeric
@@ -72,23 +73,23 @@ columns:
   Sharpe1y: numeric
   Sharpe3y: numeric
   BlockReward: numeric
-  TargetBlockTimeSeconds: integer
-  OnChainGovernanceStructure: factor
-  IsTreasuryDecentralized: factor
-  LaunchStyle: factor
-  MiningAlgorithm: factor
-  NextHalvingDate: factor
-  GenesisBlockDate: factor
-  Age: factor
-  HasExperienced51PercAttack: factor
-  EmissionType_General: factor
-  EmissionType_Precise: factor
-  IsSupplyCapped: factor
+  TargetBlockTimeSeconds: numeric
+  OnChainGovernanceStructure: character
+  IsTreasuryDecentralized: logical
+  LaunchStyle: character
+  MiningAlgorithm: character
+  NextHalvingDate: character
+  GenesisBlockDate: character
+  Age: character
+  HasExperienced51PercAttack: logical
+  EmissionType_General: character
+  EmissionType_Precise: character
+  IsSupplyCapped: logical
   MaxSupply: numeric
-  Sector: factor
-  Category: factor
-  TokenUsage: factor
-  TokenType: factor
-  ConsensusAlgorithm: factor
-  pkDummy: factor
+  Sector: character
+  Category: character
+  TokenUsage: character
+  TokenType: character
+  ConsensusAlgorithm: character
+  pkDummy: POSIXct
 type: table
