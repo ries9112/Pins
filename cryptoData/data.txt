@@ -1,5 +1,5 @@
 path:
-- https://github.com/ries9112/Pins/releases/download/cryptoData-c8cef78/data.csv
+- https://github.com/ries9112/Pins/releases/download/cryptoData-89058da/data.csv
 - data.rds
 rows: 253059
 cols: 83
