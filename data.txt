@@ -16,3 +16,6 @@
 - path: myIp
   name: myIp
   type: default
+- path: myIp-new
+  name: myIp-new
+  type: default
