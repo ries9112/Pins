@@ -1,7 +1,7 @@
 path:
-- https://github.com/ries9112/Pins/releases/download/crypto-data-94d3d6e/data.csv
+- https://github.com/ries9112/Pins/releases/download/crypto-data-926548d/data.csv
 - data.rds
-rows: 251702
+rows: 254332
 cols: 87
 columns:
   DateExtracted: factor
