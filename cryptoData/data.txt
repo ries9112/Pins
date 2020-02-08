@@ -1,7 +1,7 @@
 path:
-- https://github.com/ries9112/Pins/releases/download/cryptoData-b645cc9/data.csv
+- https://github.com/ries9112/Pins/releases/download/cryptoData-edc69e2/data.csv
 - data.rds
-rows: 253422
+rows: 249190
 cols: 83
 columns:
   DateTimeColoradoTimeMST: POSIXct
