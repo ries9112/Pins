@@ -1,6 +1,6 @@
 - path: cryptoData
   name: cryptoData
-  rows: 249731
+  rows: 250057
   cols: 83
   type: table
 - path: cryptoDataNew
