@@ -21,7 +21,7 @@
   type: default
 - path: ShrimpyPrices
   name: ShrimpyPrices
-  rows: 222058
+  rows: 222403
   cols: 5
   type: table
 - path: cUxsaE0rY2tzZFdlTTJXTkR4Z1BBUT09
